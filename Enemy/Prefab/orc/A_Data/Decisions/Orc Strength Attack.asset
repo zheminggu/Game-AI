@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dc415196fc8f6b499f6d31902a70798, type: 3}
+  m_Name: Orc Strength Attack
+  m_EditorClassIdentifier: 
+  learnedBehavior: {fileID: 11400000, guid: d094670e45f14da4682b2a589d733f32, type: 2}
+  nextDecision:
+  - m_NextDecision: {fileID: 11400000, guid: 90c2b7507885f3446add2f10ffe9147a, type: 2}
+    m_DecideEvents: {fileID: 11400000, guid: 274bc2f86031c0246b0555b9e7d698cd, type: 2}
+    m_ProbabilityToDoThisDecision: 0
