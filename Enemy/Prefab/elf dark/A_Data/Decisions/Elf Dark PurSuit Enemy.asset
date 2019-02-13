@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dc415196fc8f6b499f6d31902a70798, type: 3}
+  m_Name: Elf Dark PurSuit Enemy
+  m_EditorClassIdentifier: 
+  learnedBehavior: {fileID: 11400000, guid: 5b559766644f74d43a40759d23d3a9ab, type: 2}
+  nextDecision:
+  - m_NextDecision: {fileID: 11400000, guid: 3b99acce948f4c04f9856a821a28a328, type: 2}
+    m_DecideEvents: {fileID: 11400000, guid: 6a92b8a6a2a576d4f8e786929ade065c, type: 2}
+    m_ProbabilityToDoThisDecision: 0

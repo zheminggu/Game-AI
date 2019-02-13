@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dc415196fc8f6b499f6d31902a70798, type: 3}
+  m_Name: Fantasy Want Patrol
+  m_EditorClassIdentifier: 
+  learnedBehavior: {fileID: 11400000, guid: 3b388a5fd65d3a343bd216c8315fb6af, type: 2}
+  nextDecision:
+  - m_NextDecision: {fileID: 11400000, guid: 5910cb6856c74c74fb5a56b88820c767, type: 2}
+    m_DecideEvents: {fileID: 11400000, guid: 6d0e8f152280b404f9db569a04160315, type: 2}
+    m_ProbabilityToDoThisDecision: 0
