@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dc415196fc8f6b499f6d31902a70798, type: 3}
+  m_Name: Goblin Pursuit With Anger
+  m_EditorClassIdentifier: 
+  learnedBehavior: {fileID: 11400000, guid: dba58ca3c9d87414b8aa4678bd462e22, type: 2}
+  nextDecision:
+  - m_NextDecision: {fileID: 11400000, guid: 69f60a26ce51e95409aee774b0c500f6, type: 2}
+    m_DecideEvents: {fileID: 11400000, guid: 3d4ee8e33015f6c48922be70eb82bff5, type: 2}
+    m_ProbabilityToDoThisDecision: 0
