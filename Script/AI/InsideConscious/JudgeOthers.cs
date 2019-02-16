@@ -10,6 +10,7 @@ namespace AI
 
         /// <summary>
         /// 判断当前邻居是否是敌人，一次只有一个敌人
+        /// judge if current neighbors are enemy
         /// </summary>
         /// <param name="_Brain"></param>
         public void JudgeIfNeighborIsEnemy(AICharacterBrain _Brain)
