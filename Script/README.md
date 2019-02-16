@@ -1,7 +1,7 @@
 # Script
 ## Structure
 
-## Folders:
+### Folders:
 
 **AI**: The Main AI Scripts.
 
@@ -9,7 +9,7 @@
 
 **GameSet**: some game sets of the AI game.
 
-## Scripts:
+### Scripts:
 
 **Debugger**: use to debug the AI system
 
